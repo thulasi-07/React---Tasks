@@ -1,6 +1,6 @@
 import React from "react";
 
-const UserCard = () => {
+const UserCard = (props) => {
     console.log(props.data);
     return (
         <div className="user-card">

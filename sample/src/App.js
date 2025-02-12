@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { getPosts } from "./api/Index";
+import { getPosts, getRandomUser } from "./api/Index";
 import PostCard from "./components/PostCard";
 import UserCard from "./components/UserCard";
 import "./App.css";
