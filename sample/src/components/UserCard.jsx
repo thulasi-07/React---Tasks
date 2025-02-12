@@ -6,8 +6,8 @@ const UserCard = () => {
         <div className="user-card">
             <img className="user-image" />
             <h3>{props.data.name.first}</h3>
-            <p>91+ 1234567890</p>
-            <p>User Address</p>
+            <p>{props.data.phone}</p>
+            <p>{props.data.location.city}, {props.data.location.state}</p>
         </div>
     )
 }
